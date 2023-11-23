@@ -2,7 +2,7 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-st.sidebar.scroll_to_top()
+
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "file" in locals() else Path.cwd()
@@ -144,7 +144,7 @@ st.write(
 
 
 
-
+st.sidebar.scroll_to_top()
 
 
 
