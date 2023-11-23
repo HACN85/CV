@@ -144,8 +144,6 @@ st.write(
 
 
 
-st.sidebar.scroll_to_top()
-
 
 
 
