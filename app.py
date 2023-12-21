@@ -2,8 +2,7 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-# Anchor element for the top of the page
-st.markdown('<div id="top"></div>', unsafe_allow_html=True)
+
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "file" in locals() else Path.cwd()
