@@ -2,20 +2,7 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-# Add this HTML at the beginning of your Streamlit app
-st.markdown('<div id="top"></div>', unsafe_allow_html=True)
 
-# Add this JavaScript snippet to scroll to the top
-st.markdown(
-    """
-    <script>
-    window.onload = function() {
-        window.scrollTo(0, 0);
-    }
-    </script>
-    """,
-    unsafe_allow_html=True
-)
 
 
 # --- PATH SETTINGS ---
