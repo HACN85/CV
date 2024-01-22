@@ -143,17 +143,16 @@ st.write(
 # --- SOME PORTFOLIOS SAMPLE ---
 st.write("---")
 st.write("#")
-st.write("🎨","**Some Portfolios Sample**")
+st.subheader("Some Portfolios Sample")
 
 
 # --- Sales ---
 st.write("\n")
-st.write(
-    "[Supermarket - Consumer purchasing habits](https://supermarketsales-kgtjrnuvkhyzwmqln2c8fz.streamlit.app/)"
+st.write("["🎨",Supermarket - Consumer purchasing habits](https://supermarketsales-kgtjrnuvkhyzwmqln2c8fz.streamlit.app/)"
 )
 
 # --- Game Sales Data Explorer ---
 
-st.write("[Game Sales Data Explorer](https://gamesales-jbzmd2mtwqgmxsnn2v9s8j.streamlit.app/)")
+st.write("["🎨",Game Sales Data Explorer](https://gamesales-jbzmd2mtwqgmxsnn2v9s8j.streamlit.app/)")
 
 
