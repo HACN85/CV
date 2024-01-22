@@ -32,13 +32,7 @@ profile_pic = Image.open(profile_pic)
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
 
-# --- Go to the top with the sidebar ---
-st.sidebar.title("Navigation")
-go_to_top = st.sidebar.button("Go to Top")
 
-# Scroll to the top if the button is clicked
-if go_to_top:
-    st.write("#")
 
 
 
@@ -161,4 +155,6 @@ st.write(
 
 st.write("[Game Sales Data Explorer](https://gamesales-jbzmd2mtwqgmxsnn2v9s8j.streamlit.app/)")
 
-
+# --- Go to Top Link ---
+st.write("---")
+st.markdown("[Go to Top](#)")
