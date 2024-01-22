@@ -161,7 +161,5 @@ st.write(
 
 st.write("[Game Sales Data Explorer](https://gamesales-jbzmd2mtwqgmxsnn2v9s8j.streamlit.app/)")
 
-# --- Go to Top Link ---
-st.write("#")
-st.subheader("Go to Top")
+
 st.write("[Go to Top](#)")
