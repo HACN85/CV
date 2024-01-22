@@ -155,5 +155,3 @@ st.write(
 
 st.write("[Game Sales Data Explorer](https://gamesales-jbzmd2mtwqgmxsnn2v9s8j.streamlit.app/)")
 
-# --- Go to Top Link ---
-st.markdown("<a href='#'>Go to Top</a>", unsafe_allow_html=True)
