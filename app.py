@@ -12,7 +12,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 
 PAGE_TITLE = "Digital CV | Herbert Nascimento"
 PAGE_ICON = ":rocket:"
-NAME = "Herbert Nascimento 13"
+NAME = "Herbert Nascimento"
 DESCRIPTION = """BUSINESS INTELLIGENCE | ANALYTICS | BUSINESS DEVELOPMENT"""
 EMAIL = "herbert.a.nascimento@gmail.com"
 SOCIAL_MEDIA = {
@@ -162,7 +162,3 @@ st.write(
 st.write("[Game Sales Data Explorer](https://gamesales-jbzmd2mtwqgmxsnn2v9s8j.streamlit.app/)")
 
 
-# --- Go to Top Link ---
-st.write("#")
-st.subheader("Go to Top")
-st.markdown("[Go to Top](#)")
