@@ -31,6 +31,17 @@ profile_pic = Image.open(profile_pic)
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
+
+# --- Go to the top with the sidebar ---
+st.sidebar.title("Navigation")
+go_to_top = st.sidebar.button("Go to Top")
+
+# Scroll to the top if the button is clicked
+if go_to_top:
+    st.write("#")
+
+
+
 with col1:
     st.image(profile_pic, width=230)
 
@@ -141,11 +152,16 @@ st.write("#")
 st.subheader("Some Portfolios Sample")
 
 # --- Sales ---
-st.write("Sales")
+
 st.write(
     "[Supermarket - Consumer purchasing habits](https://supermarketsales-kgtjrnuvkhyzwmqln2c8fz.streamlit.app/)"
 )
 
 # --- Game Sales Data Explorer ---
-st.write("Game Sales Data Explorer")
+
 st.write("[Game Sales Data Explorer](https://gamesales-jbzmd2mtwqgmxsnn2v9s8j.streamlit.app/)")
+
+# --- Go to Top Link ---
+st.write("#")
+st.subheader("Go to Top")
+st.write("[Go to Top](#)")
