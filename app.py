@@ -143,10 +143,11 @@ st.write(
 # --- SOME PORTFOLIOS SAMPLE ---
 st.write("---")
 st.write("#")
-st.subheader("Some Portfolios Sample")
+st.subheader("🎨","Some Portfolios Sample")
+
 
 # --- Sales ---
-
+st.write("\n")
 st.write(
     "[Supermarket - Consumer purchasing habits](https://supermarketsales-kgtjrnuvkhyzwmqln2c8fz.streamlit.app/)"
 )
