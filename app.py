@@ -10,7 +10,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTING ---
 
-PAGE_TITLE = "Digital CV | Herbert Nascimento"
+PAGE_TITLE = "Digital CV 13 | Herbert Nascimento"
 PAGE_ICON = ":rocket:"
 NAME = "Herbert Nascimento"
 DESCRIPTION = """BUSINESS INTELLIGENCE | ANALYTICS | BUSINESS DEVELOPMENT"""
